@@ -1,37 +1,19 @@
-# Pipeline Tracking Elder Care Robot (C++)
+OTB Toolkit
+===
 
-This project implements the requested real-time tracking pipeline in modern C++ (C++17) with OpenCV. The code mirrors the original Python design while targeting low-latency deployments on embedded platforms such as Jetson Nano.
+This is a friendly toolkit for comparing your trackers and the state-of-the-art trackers on the Online Tracking Benchmark (OTB-2013 and OTB-2015). The source code is inherited from the official repository [Visual Tracking Benchmark](http://cvlab.hanyang.ac.kr/tracker_benchmark/index.html).
 
-## Module Map
+![Success Plot](figs/OPE/success_plot.png)
 
-1. **Types (`include/pipeline/Types.hpp`)** - bounding-box math and `TrackingTarget` bookkeeping.
-2. **Detection (`include/detection`)** - detector interface plus the SSD/NCNN stub (`NCNNSsdDetector`) and a `StaticBoxDetector` for dry runs.
-3. **Tracking (`include/tracking`)** - CSRT wrapper (`CsrtTracker.hpp`) and bounding-box quality filters (`Quality.hpp`).
-4. **Rescue (`include/rescue/RescueStrategy.hpp`)** - ROI expansion, class filtering, IoU-based re-ranking, and re-init hooks.
-5. **Smoothing (`include/smoothing/BoxKalmanFilter.hpp`)** - Kalman-based smoothing with clamp limits on position and scale.
-6. **Pipeline (`include/pipeline/TrackingPipeline.hpp`)** - orchestrates detection, tracking, rescue, and smoothing to deliver per-frame outputs.
-7. **App (`src/main.cpp`)** - command-line entry point using a configurable GStreamer pipeline and optional live visualization.
+## Features
+* Compatible tracking protocol
+* Auto download and configure sequences
+* Highly designable and modularized code
+* Updated state-of-the-art results
 
-All implementations live in `src/`, with the same filenames as their headers.
+## Usage
 
-## Building
-
-1. Install a C++17 toolchain and OpenCV (built with `opencv_contrib` to access CSRT).
-2. Configure and build with CMake:
-   ```powershell
-   cmake -S . -B build
-   cmake --build build
-   ```
-3. Run the demo binary, supplying your GStreamer pipeline string:
-   ```powershell
-   .\build\eldercare_tracking --camera-pipeline "<gst string>" --use-mock-detector --display
-   ```
-
-When integrating the real detector, provide `--model <path>` instead of `--use-mock-detector`.
-
-## Next Steps
-
-- Replace the stubbed `NCNNSsdDetector::loadModel`/`detect` with the actual NCNN/Vulkan flow you plan to deploy.
-- Export the SSD graph to a Jetson-optimized engine once the NCNN/Vulkan implementation is validated.
-- Tune the thresholds in `config::PipelineConfig` to match your hardware and environment.
+1. add your tracker repository to `trackers` folder, or use `git submodule init && git submodel update` to access the default ECO tracker
+2. configure your tracker in file `configs/config_trackers.m`
+3. evalutae your tracker on OTB100 by running `matlab -r "run_OPE;exit;"`
 
