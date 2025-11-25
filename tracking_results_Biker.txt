@@ -1,0 +1,398 @@
+
+Detailed Per-Frame Results for Biker:
+---------------------------------------------------------------------------
+Frame            IoU     Avg IoUSuccess Rate   Tracker Type
+---------------------------------------------------------------------------
+*** DEBUG *** Setting original target size to: 16x26
+*** DEBUG *** Updated target originalBox
+1              1.000       1.000       1.000       Detector
+2              0.863       0.932       1.000           CSRT
+3              0.906       0.923       1.000           CSRT
+4              0.865       0.908       1.000           CSRT
+5              0.837       0.894       1.000           CSRT
+6              0.895       0.894       1.000           CSRT
+7              0.802       0.881       1.000           CSRT
+8              0.754       0.865       1.000           CSRT
+9              0.918       0.871       1.000           CSRT
+10             0.895       0.874       1.000           CSRT
+11             0.878       0.874       1.000           CSRT
+12             0.796       0.868       1.000           CSRT
+13             0.855       0.867       1.000           CSRT
+14             0.748       0.858       1.000           CSRT
+15             0.730       0.850       1.000           CSRT
+16             0.727       0.842       1.000           CSRT
+17             0.754       0.837       1.000           CSRT
+18             0.755       0.832       1.000           CSRT
+19             0.755       0.828       1.000           CSRT
+20             0.755       0.824       1.000           CSRT
+21             0.728       0.820       1.000           CSRT
+22             0.729       0.816       1.000           CSRT
+23             0.755       0.813       1.000           CSRT
+24             0.630       0.805       1.000           CSRT
+25             0.630       0.798       1.000           CSRT
+26             0.630       0.792       1.000           CSRT
+27             0.630       0.786       1.000           CSRT
+28             0.630       0.780       1.000           CSRT
+29             0.583       0.774       1.000           CSRT
+30             0.583       0.767       1.000           CSRT
+31             0.511       0.759       1.000           CSRT
+32             0.511       0.751       1.000           CSRT
+33             0.511       0.744       1.000           CSRT
+34             0.511       0.737       1.000           CSRT
+35             0.511       0.731       1.000           CSRT
+36             0.511       0.725       1.000           CSRT
+*** FORCE RESCUE *** Frame 37 - Ground Truth IoU: 0.444 < 0.5
+*** RESCUE DEBUG *** SiamFC detected 0 objects
+*** RESCUE DEBUG *** After filtering: 0 candidates (minIoU=0.050)
+*** RESCUE DEBUG *** No valid candidates found!
+37             0.444       0.717       0.973           CSRT
+*** FORCE RESCUE *** Frame 38 - Ground Truth IoU: 0.444 < 0.5
+*** RESCUE DEBUG *** SiamFC detected 0 objects
+*** RESCUE DEBUG *** After filtering: 0 candidates (minIoU=0.050)
+*** RESCUE DEBUG *** No valid candidates found!
+38             0.444       0.710       0.947           CSRT
+*** FORCE RESCUE *** Frame 39 - Ground Truth IoU: 0.444 < 0.5
+*** RESCUE DEBUG *** SiamFC detected 0 objects
+*** RESCUE DEBUG *** After filtering: 0 candidates (minIoU=0.050)
+*** RESCUE DEBUG *** No valid candidates found!
+39             0.444       0.703       0.923           CSRT
+*** FORCE RESCUE *** Frame 40 - Ground Truth IoU: 0.444 < 0.5
+*** RESCUE DEBUG *** SiamFC detected 0 objects
+*** RESCUE DEBUG *** After filtering: 0 candidates (minIoU=0.050)
+*** RESCUE DEBUG *** No valid candidates found!
+40             0.444       0.697       0.900           CSRT
+*** FORCE RESCUE *** Frame 41 - Ground Truth IoU: 0.413 < 0.5
+*** RESCUE DEBUG *** SiamFC detected 0 objects
+*** RESCUE DEBUG *** After filtering: 0 candidates (minIoU=0.050)
+*** RESCUE DEBUG *** No valid candidates found!
+41             0.413       0.690       0.878           CSRT
+*** FORCE RESCUE *** Frame 42 - Ground Truth IoU: 0.413 < 0.5
+*** RESCUE DEBUG *** SiamFC detected 0 objects
+*** RESCUE DEBUG *** After filtering: 0 candidates (minIoU=0.050)
+*** RESCUE DEBUG *** No valid candidates found!
+42             0.413       0.683       0.857           CSRT
+*** FORCE RESCUE *** Frame 43 - Ground Truth IoU: 0.413 < 0.5
+*** RESCUE DEBUG *** SiamFC detected 0 objects
+*** RESCUE DEBUG *** After filtering: 0 candidates (minIoU=0.050)
+*** RESCUE DEBUG *** No valid candidates found!
+43             0.413       0.677       0.837           CSRT
+*** FORCE RESCUE *** Frame 44 - Ground Truth IoU: 0.413 < 0.5
+*** RESCUE DEBUG *** SiamFC detected 0 objects
+*** RESCUE DEBUG *** After filtering: 0 candidates (minIoU=0.050)
+*** RESCUE DEBUG *** No valid candidates found!
+44             0.413       0.671       0.818           CSRT
+*** FORCE RESCUE *** Frame 45 - Ground Truth IoU: 0.364 < 0.5
+*** RESCUE DEBUG *** SiamFC detected 0 objects
+*** RESCUE DEBUG *** After filtering: 0 candidates (minIoU=0.050)
+*** RESCUE DEBUG *** No valid candidates found!
+45             0.364       0.664       0.800           CSRT
+*** FORCE RESCUE *** Frame 46 - Ground Truth IoU: 0.364 < 0.5
+*** RESCUE DEBUG *** SiamFC detected 0 objects
+*** RESCUE DEBUG *** After filtering: 0 candidates (minIoU=0.050)
+*** RESCUE DEBUG *** No valid candidates found!
+46             0.364       0.657       0.783           CSRT
+*** FORCE RESCUE *** Frame 47 - Ground Truth IoU: 0.364 < 0.5
+*** RESCUE DEBUG *** SiamFC detected 0 objects
+*** RESCUE DEBUG *** After filtering: 0 candidates (minIoU=0.050)
+*** RESCUE DEBUG *** No valid candidates found!
+47             0.364       0.651       0.766           CSRT
+*** FORCE RESCUE *** Frame 48 - Ground Truth IoU: 0.364 < 0.5
+*** RESCUE DEBUG *** SiamFC detected 0 objects
+*** RESCUE DEBUG *** After filtering: 0 candidates (minIoU=0.050)
+*** RESCUE DEBUG *** No valid candidates found!
+48             0.364       0.645       0.750           CSRT
+*** FORCE RESCUE *** Frame 49 - Ground Truth IoU: 0.364 < 0.5
+*** RESCUE DEBUG *** SiamFC detected 0 objects
+*** RESCUE DEBUG *** After filtering: 0 candidates (minIoU=0.050)
+*** RESCUE DEBUG *** No valid candidates found!
+49             0.364       0.639       0.735           CSRT
+*** FORCE RESCUE *** Frame 50 - Ground Truth IoU: 0.364 < 0.5
+*** RESCUE DEBUG *** SiamFC detected 0 objects
+*** RESCUE DEBUG *** After filtering: 0 candidates (minIoU=0.050)
+*** RESCUE DEBUG *** No valid candidates found!
+50             0.364       0.634       0.720           CSRT
+*** FORCE RESCUE *** Frame 51 - Ground Truth IoU: 0.364 < 0.5
+*** RESCUE DEBUG *** SiamFC detected 0 objects
+*** RESCUE DEBUG *** After filtering: 0 candidates (minIoU=0.050)
+*** RESCUE DEBUG *** No valid candidates found!
+51             0.364       0.629       0.706           CSRT
+*** FORCE RESCUE *** Frame 52 - Ground Truth IoU: 0.299 < 0.5
+*** RESCUE DEBUG *** SiamFC detected 0 objects
+*** RESCUE DEBUG *** After filtering: 0 candidates (minIoU=0.050)
+*** RESCUE DEBUG *** No valid candidates found!
+52             0.299       0.622       0.692           CSRT
+*** FORCE RESCUE *** Frame 53 - Ground Truth IoU: 0.299 < 0.5
+*** RESCUE DEBUG *** SiamFC detected 0 objects
+*** RESCUE DEBUG *** After filtering: 0 candidates (minIoU=0.050)
+*** RESCUE DEBUG *** No valid candidates found!
+53             0.299       0.616       0.679           CSRT
+*** FORCE RESCUE *** Frame 54 - Ground Truth IoU: 0.299 < 0.5
+*** RESCUE DEBUG *** SiamFC detected 0 objects
+*** RESCUE DEBUG *** After filtering: 0 candidates (minIoU=0.050)
+*** RESCUE DEBUG *** No valid candidates found!
+54             0.299       0.610       0.667           CSRT
+*** FORCE RESCUE *** Frame 55 - Ground Truth IoU: 0.299 < 0.5
+*** RESCUE DEBUG *** SiamFC detected 0 objects
+*** RESCUE DEBUG *** After filtering: 0 candidates (minIoU=0.050)
+*** RESCUE DEBUG *** No valid candidates found!
+55             0.299       0.605       0.655           CSRT
+*** FORCE RESCUE *** Frame 56 - Ground Truth IoU: 0.299 < 0.5
+*** RESCUE DEBUG *** SiamFC detected 0 objects
+*** RESCUE DEBUG *** After filtering: 0 candidates (minIoU=0.050)
+*** RESCUE DEBUG *** No valid candidates found!
+56             0.299       0.599       0.643           CSRT
+*** FORCE RESCUE *** Frame 57 - Ground Truth IoU: 0.299 < 0.5
+*** RESCUE DEBUG *** SiamFC detected 0 objects
+*** RESCUE DEBUG *** After filtering: 0 candidates (minIoU=0.050)
+*** RESCUE DEBUG *** No valid candidates found!
+57             0.299       0.594       0.632           CSRT
+*** FORCE RESCUE *** Frame 58 - Ground Truth IoU: 0.299 < 0.5
+*** RESCUE DEBUG *** SiamFC detected 0 objects
+*** RESCUE DEBUG *** After filtering: 0 candidates (minIoU=0.050)
+*** RESCUE DEBUG *** No valid candidates found!
+58             0.299       0.589       0.621           CSRT
+*** FORCE RESCUE *** Frame 59 - Ground Truth IoU: 0.299 < 0.5
+*** RESCUE DEBUG *** SiamFC detected 0 objects
+*** RESCUE DEBUG *** After filtering: 0 candidates (minIoU=0.050)
+*** RESCUE DEBUG *** No valid candidates found!
+59             0.299       0.584       0.610           CSRT
+*** FORCE RESCUE *** Frame 60 - Ground Truth IoU: 0.299 < 0.5
+*** RESCUE DEBUG *** SiamFC detected 0 objects
+*** RESCUE DEBUG *** After filtering: 0 candidates (minIoU=0.050)
+*** RESCUE DEBUG *** No valid candidates found!
+60             0.299       0.579       0.600           CSRT
+*** FORCE RESCUE *** Frame 61 - Ground Truth IoU: 0.299 < 0.5
+*** RESCUE DEBUG *** SiamFC detected 0 objects
+*** RESCUE DEBUG *** After filtering: 0 candidates (minIoU=0.050)
+*** RESCUE DEBUG *** No valid candidates found!
+61             0.299       0.575       0.590           CSRT
+*** FORCE RESCUE *** Frame 62 - Ground Truth IoU: 0.299 < 0.5
+*** RESCUE DEBUG *** SiamFC detected 0 objects
+*** RESCUE DEBUG *** After filtering: 0 candidates (minIoU=0.050)
+*** RESCUE DEBUG *** No valid candidates found!
+62             0.299       0.570       0.581           CSRT
+*** FORCE RESCUE *** Frame 63 - Ground Truth IoU: 0.299 < 0.5
+*** RESCUE DEBUG *** SiamFC detected 0 objects
+*** RESCUE DEBUG *** After filtering: 0 candidates (minIoU=0.050)
+*** RESCUE DEBUG *** No valid candidates found!
+63             0.299       0.566       0.571           CSRT
+*** FORCE RESCUE *** Frame 64 - Ground Truth IoU: 0.112 < 0.5
+*** RESCUE DEBUG *** SiamFC detected 0 objects
+*** RESCUE DEBUG *** After filtering: 0 candidates (minIoU=0.050)
+*** RESCUE DEBUG *** No valid candidates found!
+64             0.206       0.560       0.562           CSRT
+*** FORCE RESCUE *** Frame 65 - Ground Truth IoU: 0.119 < 0.5
+*** RESCUE DEBUG *** SiamFC detected 0 objects
+*** RESCUE DEBUG *** After filtering: 0 candidates (minIoU=0.050)
+*** RESCUE DEBUG *** No valid candidates found!
+65             0.136       0.554       0.554           CSRT
+*** FORCE RESCUE *** Frame 66 - Ground Truth IoU: 0.049 < 0.5
+*** RESCUE DEBUG *** SiamFC detected 0 objects
+*** RESCUE DEBUG *** After filtering: 0 candidates (minIoU=0.050)
+*** RESCUE DEBUG *** No valid candidates found!
+66             0.038       0.546       0.545           CSRT
+*** FORCE RESCUE *** Frame 67 - Ground Truth IoU: 0.000 < 0.5
+*** RESCUE DEBUG *** SiamFC detected 0 objects
+*** RESCUE DEBUG *** After filtering: 0 candidates (minIoU=0.050)
+*** RESCUE DEBUG *** No valid candidates found!
+67             0.000       0.538       0.537           CSRT
+*** FORCE RESCUE *** Frame 68 - Ground Truth IoU: 0.000 < 0.5
+*** RESCUE DEBUG *** SiamFC detected 0 objects
+*** RESCUE DEBUG *** After filtering: 0 candidates (minIoU=0.050)
+*** RESCUE DEBUG *** No valid candidates found!
+68             0.000       0.530       0.529           CSRT
+*** FORCE RESCUE *** Frame 69 - Ground Truth IoU: 0.047 < 0.5
+*** RESCUE DEBUG *** SiamFC detected 0 objects
+*** RESCUE DEBUG *** After filtering: 0 candidates (minIoU=0.050)
+*** RESCUE DEBUG *** No valid candidates found!
+69             0.000       0.522       0.522           CSRT
+*** RESCUE DEBUG *** SiamFC detected 0 objects
+*** RESCUE DEBUG *** After filtering: 0 candidates (minIoU=0.050)
+*** RESCUE DEBUG *** No valid candidates found!
+70             0.000       0.515       0.514           CSRT
+71             0.000       0.507       0.507           CSRT
+*** RESCUE DEBUG *** SiamFC detected 0 objects
+*** RESCUE DEBUG *** After filtering: 0 candidates (minIoU=0.050)
+*** RESCUE DEBUG *** No valid candidates found!
+72             0.000       0.500       0.500           CSRT
+73             0.000       0.493       0.493           CSRT
+*** RESCUE DEBUG *** SiamFC detected 0 objects
+*** RESCUE DEBUG *** After filtering: 0 candidates (minIoU=0.050)
+*** RESCUE DEBUG *** No valid candidates found!
+74             0.000       0.487       0.486           CSRT
+75             0.000       0.480       0.480           CSRT
+*** RESCUE DEBUG *** SiamFC detected 0 objects
+*** RESCUE DEBUG *** After filtering: 0 candidates (minIoU=0.050)
+*** RESCUE DEBUG *** No valid candidates found!
+76             0.000       0.474       0.474           CSRT
+77             0.000       0.468       0.468           CSRT
+*** RESCUE DEBUG *** SiamFC detected 0 objects
+*** RESCUE DEBUG *** After filtering: 0 candidates (minIoU=0.050)
+*** RESCUE DEBUG *** No valid candidates found!
+78             0.000       0.462       0.462           CSRT
+79             0.000       0.456       0.456           CSRT
+*** RESCUE DEBUG *** SiamFC detected 0 objects
+*** RESCUE DEBUG *** After filtering: 0 candidates (minIoU=0.050)
+*** RESCUE DEBUG *** No valid candidates found!
+80             0.000       0.450       0.450           CSRT
+81             0.000       0.445       0.444           CSRT
+*** RESCUE DEBUG *** SiamFC detected 0 objects
+*** RESCUE DEBUG *** After filtering: 0 candidates (minIoU=0.050)
+*** RESCUE DEBUG *** No valid candidates found!
+82             0.000       0.439       0.439           CSRT
+83             0.000       0.434       0.434           CSRT
+*** RESCUE DEBUG *** SiamFC detected 0 objects
+*** RESCUE DEBUG *** After filtering: 0 candidates (minIoU=0.050)
+*** RESCUE DEBUG *** No valid candidates found!
+84             0.000       0.429       0.429           CSRT
+85             0.000       0.424       0.424           CSRT
+*** RESCUE DEBUG *** SiamFC detected 0 objects
+*** RESCUE DEBUG *** After filtering: 0 candidates (minIoU=0.050)
+*** RESCUE DEBUG *** No valid candidates found!
+86             0.000       0.419       0.419           CSRT
+87             0.000       0.414       0.414           CSRT
+*** RESCUE DEBUG *** SiamFC detected 0 objects
+*** RESCUE DEBUG *** After filtering: 0 candidates (minIoU=0.050)
+*** RESCUE DEBUG *** No valid candidates found!
+88             0.000       0.409       0.409           CSRT
+89             0.000       0.405       0.404           CSRT
+*** RESCUE DEBUG *** SiamFC detected 0 objects
+*** RESCUE DEBUG *** After filtering: 0 candidates (minIoU=0.050)
+*** RESCUE DEBUG *** No valid candidates found!
+90             0.000       0.400       0.400           CSRT
+91             0.000       0.396       0.396           CSRT
+*** RESCUE DEBUG *** SiamFC detected 0 objects
+*** RESCUE DEBUG *** After filtering: 0 candidates (minIoU=0.050)
+*** RESCUE DEBUG *** No valid candidates found!
+92             0.000       0.392       0.391           CSRT
+93             0.000       0.387       0.387           CSRT
+*** RESCUE DEBUG *** SiamFC detected 0 objects
+*** RESCUE DEBUG *** After filtering: 0 candidates (minIoU=0.050)
+*** RESCUE DEBUG *** No valid candidates found!
+94             0.000       0.383       0.383           CSRT
+95             0.000       0.379       0.379           CSRT
+*** RESCUE DEBUG *** SiamFC detected 0 objects
+*** RESCUE DEBUG *** After filtering: 0 candidates (minIoU=0.050)
+*** RESCUE DEBUG *** No valid candidates found!
+96             0.000       0.375       0.375           CSRT
+97             0.000       0.371       0.371           CSRT
+*** RESCUE DEBUG *** SiamFC detected 0 objects
+*** RESCUE DEBUG *** After filtering: 0 candidates (minIoU=0.050)
+*** RESCUE DEBUG *** No valid candidates found!
+98             0.000       0.368       0.367           CSRT
+99             0.000       0.364       0.364           CSRT
+*** RESCUE DEBUG *** SiamFC detected 0 objects
+*** RESCUE DEBUG *** After filtering: 0 candidates (minIoU=0.050)
+*** RESCUE DEBUG *** No valid candidates found!
+100            0.000       0.360       0.360           CSRT
+101            0.000       0.357       0.356           CSRT
+*** RESCUE DEBUG *** SiamFC detected 0 objects
+*** RESCUE DEBUG *** After filtering: 0 candidates (minIoU=0.050)
+*** RESCUE DEBUG *** No valid candidates found!
+102            0.000       0.353       0.353           CSRT
+103            0.000       0.350       0.350           CSRT
+*** RESCUE DEBUG *** SiamFC detected 0 objects
+*** RESCUE DEBUG *** After filtering: 0 candidates (minIoU=0.050)
+*** RESCUE DEBUG *** No valid candidates found!
+104            0.000       0.346       0.346           CSRT
+105            0.000       0.343       0.343           CSRT
+*** RESCUE DEBUG *** SiamFC detected 0 objects
+*** RESCUE DEBUG *** After filtering: 0 candidates (minIoU=0.050)
+*** RESCUE DEBUG *** No valid candidates found!
+106            0.000       0.340       0.340           CSRT
+107            0.000       0.337       0.336           CSRT
+*** RESCUE DEBUG *** SiamFC detected 0 objects
+*** RESCUE DEBUG *** After filtering: 0 candidates (minIoU=0.050)
+*** RESCUE DEBUG *** No valid candidates found!
+108            0.000       0.334       0.333           CSRT
+109            0.000       0.331       0.330           CSRT
+*** RESCUE DEBUG *** SiamFC detected 0 objects
+*** RESCUE DEBUG *** After filtering: 0 candidates (minIoU=0.050)
+*** RESCUE DEBUG *** No valid candidates found!
+110            0.000       0.327       0.327           CSRT
+111            0.000       0.325       0.324           CSRT
+*** RESCUE DEBUG *** SiamFC detected 0 objects
+*** RESCUE DEBUG *** After filtering: 0 candidates (minIoU=0.050)
+*** RESCUE DEBUG *** No valid candidates found!
+112            0.000       0.322       0.321           CSRT
+113            0.000       0.319       0.319           CSRT
+*** RESCUE DEBUG *** SiamFC detected 0 objects
+*** RESCUE DEBUG *** After filtering: 0 candidates (minIoU=0.050)
+*** RESCUE DEBUG *** No valid candidates found!
+114            0.000       0.316       0.316           CSRT
+115            0.000       0.313       0.313           CSRT
+*** RESCUE DEBUG *** SiamFC detected 0 objects
+*** RESCUE DEBUG *** After filtering: 0 candidates (minIoU=0.050)
+*** RESCUE DEBUG *** No valid candidates found!
+116            0.000       0.311       0.310           CSRT
+117            0.000       0.308       0.308           CSRT
+*** RESCUE DEBUG *** SiamFC detected 0 objects
+*** RESCUE DEBUG *** After filtering: 0 candidates (minIoU=0.050)
+*** RESCUE DEBUG *** No valid candidates found!
+118            0.000       0.305       0.305           CSRT
+119            0.000       0.303       0.303           CSRT
+*** RESCUE DEBUG *** SiamFC detected 0 objects
+*** RESCUE DEBUG *** After filtering: 0 candidates (minIoU=0.050)
+*** RESCUE DEBUG *** No valid candidates found!
+120            0.000       0.300       0.300           CSRT
+121            0.000       0.298       0.298           CSRT
+*** RESCUE DEBUG *** SiamFC detected 0 objects
+*** RESCUE DEBUG *** After filtering: 0 candidates (minIoU=0.050)
+*** RESCUE DEBUG *** No valid candidates found!
+122            0.000       0.295       0.295           CSRT
+123            0.000       0.293       0.293           CSRT
+*** RESCUE DEBUG *** SiamFC detected 0 objects
+*** RESCUE DEBUG *** After filtering: 0 candidates (minIoU=0.050)
+*** RESCUE DEBUG *** No valid candidates found!
+124            0.000       0.291       0.290           CSRT
+125            0.000       0.288       0.288           CSRT
+*** RESCUE DEBUG *** SiamFC detected 0 objects
+*** RESCUE DEBUG *** After filtering: 0 candidates (minIoU=0.050)
+*** RESCUE DEBUG *** No valid candidates found!
+126            0.000       0.286       0.286           CSRT
+127            0.000       0.284       0.283           CSRT
+*** RESCUE DEBUG *** SiamFC detected 0 objects
+*** RESCUE DEBUG *** After filtering: 0 candidates (minIoU=0.050)
+*** RESCUE DEBUG *** No valid candidates found!
+128            0.000       0.281       0.281           CSRT
+129            0.000       0.279       0.279           CSRT
+*** RESCUE DEBUG *** SiamFC detected 0 objects
+*** RESCUE DEBUG *** After filtering: 0 candidates (minIoU=0.050)
+*** RESCUE DEBUG *** No valid candidates found!
+130            0.000       0.277       0.277           CSRT
+131            0.000       0.275       0.275           CSRT
+*** RESCUE DEBUG *** SiamFC detected 0 objects
+*** RESCUE DEBUG *** After filtering: 0 candidates (minIoU=0.050)
+*** RESCUE DEBUG *** No valid candidates found!
+132            0.000       0.273       0.273           CSRT
+133            0.000       0.271       0.271           CSRT
+*** RESCUE DEBUG *** SiamFC detected 0 objects
+*** RESCUE DEBUG *** After filtering: 0 candidates (minIoU=0.050)
+*** RESCUE DEBUG *** No valid candidates found!
+134            0.000       0.269       0.269           CSRT
+135            0.000       0.267       0.267           CSRT
+*** RESCUE DEBUG *** SiamFC detected 0 objects
+*** RESCUE DEBUG *** After filtering: 0 candidates (minIoU=0.050)
+*** RESCUE DEBUG *** No valid candidates found!
+136            0.000       0.265       0.265           CSRT
+137            0.000       0.263       0.263           CSRT
+*** RESCUE DEBUG *** SiamFC detected 0 objects
+*** RESCUE DEBUG *** After filtering: 0 candidates (minIoU=0.050)
+*** RESCUE DEBUG *** No valid candidates found!
+138            0.000       0.261       0.261           CSRT
+139            0.000       0.259       0.259           CSRT
+*** RESCUE DEBUG *** SiamFC detected 0 objects
+*** RESCUE DEBUG *** After filtering: 0 candidates (minIoU=0.050)
+*** RESCUE DEBUG *** No valid candidates found!
+140            0.000       0.257       0.257           CSRT
+141            0.000       0.255       0.255           CSRT
+*** RESCUE DEBUG *** SiamFC detected 0 objects
+*** RESCUE DEBUG *** After filtering: 0 candidates (minIoU=0.050)
+*** RESCUE DEBUG *** No valid candidates found!
+142            0.000       0.254       0.254           CSRT
+---------------------------------------------------------------------------
+Summary: 142 frames processed
+===========================================================================
+Sequence              Frames     Avg IoU    Success@0.50         FPS
+--------------------------------------------------------------------
+Biker                    142       0.254           0.254      131.39

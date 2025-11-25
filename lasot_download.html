@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126023131-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-126023131-1');
+    </script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>LaSOT - Large-scale Single Object Tracking</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/lasot.css" rel="stylesheet">
+    <link href="lightbox2-master/dist/css/lightbox.css" rel="stylesheet">
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+        <!-- <a href="https://www.temple.edu/">-->
+      <img src="img/logo.png" height="46" class="align-baseline" alt=""> 
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="http://vision.cs.stonybrook.edu/~lasot/index.html">
+          <h4>LaSOT: Large-scale Single Object Tracking</h4>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="http://vision.cs.stonybrook.edu/~lasot/index.html">About</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="http://vision.cs.stonybrook.edu/~lasot/download.html">LaSOT Benchmark</a>
+              </li> 
+            <li class="nav-item">
+              <a class="nav-link" href="http://vision.cs.stonybrook.edu/~lasot/results.html">Evaluation and Result</a>
+            </li>
+           
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="download">
+      <div class="container">
+        <div class="row">
+          <div class="mx-auto" id="img_gal">
+            <h2>Download LaSOT Benchmark</h2>
+            <p class="lead">For each video in LaSOT, we provide bounding box annotation, full occlusion and out-of-view flags and lingual description. The format of a bounding box is as <code> [x, y, width, height] </code>. You can download LaSOT in three ways.</p>
+            
+            <h4><b>Note: <font style="color:#FF0000">If you cannot download the LaSOT data at this website, just check out <a href="https://hengfan2010.github.io/projects/LaSOT/" target="_blank"><b>here</b> (backup website)</a> or <a href="https://github.com/HengLan/LaSOT_Evaluation_Toolkit" target="_blank"><b>here</b> (github)</a>. <font style="color:blue">OneDrive is recommended to download.</font></font></font></b></h4>
+            
+            <ul style="list-style:none">
+			<HR style="height: 2px; border: none; background-color: #282828">
+			  <li>
+				<b><font size='4' style="color:#FF0000">Download videos of converence version (<font>70 categories with 1,400 videos, ~227G</font>)</font></b>
+			  </li>
+			  <HR>
+              <li>
+                <dl> 
+                  <dt><font size='4'>Sequences of all categories from OneDrive/Google Drive/Baidu Pan:</font></dt> 
+                  <dd>                     
+                    <!-- <a href="https://drive.google.com/file/d/1O2DLxPP8M4Pn4-XCttCJUW3A29tDIeNa/view?usp=sharing">GoogleDrive</a>,  -->
+                    <font size="4"> <a href="https://1drv.ms/u/s!Akt_zO4y_u6DgoQsxl9ixr5Y393qWA?e=7yTwjc" target="_blank">OneDrive</a></font> <br>
+                    <font size="4"> <a href="https://drive.google.com/file/d/1wnKcCuGxRTSPDnYcAB162juy_Qphbb14/view?usp=share_link" target="_blank">Google Drive part-1</a>  &nbsp;
+							  <a href="https://drive.google.com/file/d/1OANces8uLc2gAOFLGh4MaOqXUTrmZ77v/view?usp=share_link" target="_blank">Google Drive part-2</a>  &nbsp;
+							    <a href="https://drive.google.com/file/d/17LiijVbwUkAqgbCaj-W_33KbuX9RsYxy/view?usp=share_link" target="_blank">Google Drive part-3</a> </font> <br>
+                    <a href="https://pan.baidu.com/s/1UbcQIU-Fpps7Jqq4WHRRkA" target="_blank"><font size='4'>Baidu Pan</font></a> <br>
+                    <font size='4'>(MD5: 2f9fb392c6e2ce0192bba0d531703e2d)</font><br>
+                    <font size='4'><b>NOTE</b>: if it is difficult to download the whole bnechmark due to large size (~227G), we recommend downloading by category with each around 1G to 5G (see just below).</font>
+                  </dd>
+                </dl>
+              </li>
+			  <HR>
+              <li>
+                <dl> 
+                  <dt><font size='4'>Sequences of each category from OneDrive/Baidu Pan:</font></dt> 
+                  <dd>
+                    <!-- <a href="https://drive.google.com/drive/folders/1v09JELSXM_v7u3dF7akuqqkVG8T1EK2_?usp=sharing">GoogleDrive</a>, -->
+                    <font size="4"> <a href="https://1drv.ms/f/s!Akt_zO4y_u6DgoNSoMJrfnVwveDjhA?e=PBeyuD" target="_blank">OneDrive</a> </font> <br>
+                    <a href="https://pan.baidu.com/s/1xFANiqkBHytE7stMOLUpLQ" target="_blank"><font size='4'>Baidu Pan</font></a> <br>
+                    <font size='4'>(<a href="data/md5.txt">MD5</a>)</font>
+                    <br><font size='4'>Or please refer at the links below in front of each category. Click on images below for video preview and detail information.</font>
+                  </dd>
+                </dl>
+              </li>
+			  <HR>
+              <li>
+                <dl> 
+                  <dt><font size='4'>Sequences of Testing set only from Google Drive/Baidu Pan/Local:</font></dt> 
+                  <dd>
+                    <!-- <a href="https://drive.google.com/drive/folders/1v09JELSXM_v7u3dF7akuqqkVG8T1EK2_?usp=sharing">GoogleDrive</a>, -->
+                    <font size="4"> OneDrive </font> (onedrive for testing set not available) <br>
+                    <font size='4'><a href="https://drive.google.com/file/d/1FUtKPnvZ8yvLfEvKXutbniSfW-fBOmuI/view?usp=share_link" target="_blank">GoogleDrive</a> </font><br>
+                    <font size='4'><a href="https://pan.baidu.com/s/1KBlrWGOFH9Fe85pCWN5ZkA&shfl=sharepset" target="_blank">Baidu Pan</a></font> <br>
+                     <font size='4'><a href="http://vision.cs.stonybrook.edu/~lasot/data/LaSOTTesting.zip">Local</a> </font> <br>
+                     <font size='4'>(MD5: a9038384fd94d30e7ad6a1b7cf32ec73)</font>
+                    <!-- (<a href="data/md5.txt">MD5</a>) -->
+                    <!-- <br>Or please refer at the links below in front of each category. Click on images below for video preview and detail information. -->
+                    
+                  </dd>
+                </dl>
+              </li>
+			  <HR style="height: 2px; border: none; background-color: #282828">
+			  <li>
+				<b><font size='4' style="color:#FF0000">Download videos of the new subset in extended journal version (<font>15 categories with 150 videos, ~59G</font>)</font></b>
+			  </li>
+			  <HR>
+              <li>
+                <dl> 
+                  <dt><font size='4'>Sequences of all categories from OneDrive/Google Drive/Local:</font></dt> 
+                  <dd>                     
+                    <!-- <a href="https://drive.google.com/file/d/1O2DLxPP8M4Pn4-XCttCJUW3A29tDIeNa/view?usp=sharing">GoogleDrive</a>,  -->
+                    <font size="4"> <a href="https://1drv.ms/u/s!Akt_zO4y_u6DgoQrvo5h48AC15l67A?e=Zo6PWx" target="_blank"><font color="#0099ff">OneDrive</font></a> </font> <br>
+                    <font size="4"> <a href="https://drive.google.com/file/d/1J4Soimnoz_fPZANSzAHZ01OjxKDeBS88/view?usp=share_link" target="_blank"><font color="#0099ff">Google Drive</font></a></font> <br>
+                    <a href="http://vision.cs.stonybrook.edu/~lasot/data/LaSOT_extension_subset.zip">Local</a> <br>
+                    <font size='4'>(SHA1: 27F62B85A66844F91CEB2196F39A653FFB158224)</font><br>
+                  </dd>
+                </dl>
+              </li>
+			  <HR>
+				<li>
+					<dl> 
+					<dt><font size='4'>Sequences of each category from OneDrive:</font></dt> 
+					<dd>
+						<!-- <a href="https://drive.google.com/drive/folders/1v09JELSXM_v7u3dF7akuqqkVG8T1EK2_?usp=sharing">GoogleDrive</a>, -->
+            <font size="4"> <a href="https://1drv.ms/f/s!Akt_zO4y_u6DgoQZH_aGsNh2f6x6Dg?e=sldyAx" target="_blank"><font color="#0099ff">OneDrive</font></a></font> <br>
+						<font size='4'>(<a href="data/extension_subset_sha1.txt"><font size='4'>SHA1</a>)</font>
+						<br><font size='4'>Or please refer at the links below in front of each category (you may need to have access to google drive). Click on images below for video preview and detail information.</font>
+					</dd>
+					</dl>
+				</li>
+			  <HR style="height: 2px; border: none; background-color: #282828">
+            </ul>
+            <p class="lead"> LaSOT can be freely used for personal, academic, or educational purposes.</p>
+            <!-- <p class="lead">Download each category</p> -->
+            <div class="container">
+            <script type="text/javascript" src="new_database.json"></script>
+            <script>
+              var database = JSON.parse(database_json)
+              // category = category_list.split('\n');
+
+              var color = ["primary", "secondary", "success", "danger", "warning", "info", "light"];
+              var property_list = ["POC", "MB", "CM", "DEF", "SV", "ROT", "BC", "FOC", "FM",  "VC",  "ARC", "LR", "OV", "IV"];
+
+              for (c = 0; c < database.length; c ++) {                
+                var cate_row = document.createElement("div");
+                cate_row.className = "row cate_table"
+
+                var cate_name = document.createElement("div");
+                cate_name.className = "col-2 align-self-center"
+                // cate_name.style = "padding:0 0 0 0;"
+                var cate_name_center = document.createElement("div");
+                cate_name_center.className = "text-right"
+                var cate_link = document.createElement("a");
+                var cate_title = document.createElement("p");
+                cate_link.appendChild(cate_title)
+                // cate_link.href = 'data/category/' + database[c].category + '.zip'; 
+				if (c < 70){
+					cate_link.href = 'https://1drv.ms/f/s!Akt_zO4y_u6DgoNSoMJrfnVwveDjhA?e=PBeyuD';
+				}
+				else{
+					cate_link.href = 'https://1drv.ms/f/s!Akt_zO4y_u6DgoNSoMJrfnVwveDjhA?e=PBeyuD';
+				}
+                cate_title.className = "lead font-weight-bold";
+                cate_title.textContent = database[c].category;
+                cate_name_center.appendChild(cate_link);             
+                cate_name.appendChild(cate_name_center)
+                var im_link = document.createElement("p");
+                // im_link.className = "p_link";
+                // im_link.href = database[c]['image url'];
+                im_link.textContent = "(" + database[c]['zip_size'].toFixed(1).toString()+" G)";
+                cate_name_center.appendChild(im_link);
+                // cate_name_center.appendChild(document.createElement("br"));
+                cate_row.appendChild(cate_name);
+
+                var im = document.createElement("div");
+                im.className = "col-10 im_col"
+                
+                container = document.createElement("div");
+                container.className = "container";
+                var im_tube = document.createElement("div");
+                im_tube.className = "row im_row justify-content-center"
+                container.appendChild(im_tube);
+                im.appendChild(container);
+                for (s = 0; s < database[c]['video info'].length; s++) {
+                  var im_col = document.createElement("div");
+                  im_col.className = "col-sm-10ths align-self-center"
+                  var im_gif = document.createElement("a");
+                  im_gif.href = "img/gif/" + database[c]['video info'][s]['video name'] + ".gif";
+                  im_gif.setAttribute('data-lightbox', database[c]['video info'][s]['video name']);
+                  var lb_length = '<tr><th>Video Length</th><td>' + database[c]['video info'][s]['video length'] + '</td></tr>';
+                  var lb_size = '<tr><th>Image Size</th><td>' + database[c]['video info'][s]['frame size'][1] + 'x' + database[c]['video info'][s]['frame size'][0] + '</td></tr>';
+                  var lb_link = '<tr><th>Original Video</th><td>YouTube</td></tr>';
+
+                  var lb_properties = '<tr><th>Video Challenges</th><td>'
+                  for (p = 0; p < database[c]['video info'][s]['property'].length; p++){
+                    prop_idx = property_list.indexOf(database[c]['video info'][s]['property'][p]);
+                    lb_properties = lb_properties + '<span class="badge badge-pill badge-' + color[prop_idx % color.length] + '">' + database[c]['video info'][s]['property'][p] + '</span>&nbsp';                  
+                  }
+                  lb_properties = lb_properties + '</td>';
+                  var lb_nlp = '<tr><th>NLP Description</th><td>' + database[c]['video info'][s]['nlp description'].replace("`", "'") + '</td></tr>';                  
+                  var title_div = database[c]['video info'][s]['video name'] + '<div class="im_desc"><table>' + lb_length + lb_size + lb_link + lb_properties + lb_nlp + '</table></div>';
+                  // var desc_tabel = ' <div class="im_desc"><table><></table></div>'
+                  im_gif.setAttribute('data-title', title_div);
+                  var img = document.createElement("img");
+                  img.className = "img-fluid";
+                  img.src = "img/png/" + database[c]['video info'][s]['video name'] + ".png";
+                  im_gif.appendChild(img);
+                  im_col.appendChild(im_gif);
+                  im_tube.appendChild(im_col);
+                }
+                cate_row.appendChild(im);
+                document.getElementById("img_gal").appendChild(cate_row);
+              }              
+            </script>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; LaSOT Team 2018 -
+			<script type="text/javascript">
+			var myDate = new Date();
+			document.write(myDate.getFullYear())
+			</script>
+		</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom JavaScript for this theme -->
+    <script src="js/scrolling-nav.js"></script>
+    <script src="lightbox2-master/dist/js/lightbox-plus-jquery.js"></script>
+    <script>
+      lightbox.option({
+        'resizeDuration': 0,
+        'fadeDuration': 0
+      })
+  </script>
+  </body>
+
+</html>

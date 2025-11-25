@@ -1,0 +1,2 @@
+C:\msys64\mingw64\bin\ar.exe qc lib\libsiamfc_onnx.a CMakeFiles/siamfc_onnx.dir/src/SiamFCONNXTracker.cpp.obj CMakeFiles/siamfc_onnx.dir/src/OTBDataset.cpp.obj
+C:\msys64\mingw64\bin\ranlib.exe lib\libsiamfc_onnx.a

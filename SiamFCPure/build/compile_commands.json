@@ -1,0 +1,20 @@
+[
+{
+  "directory": "E:/SourceCode/C2P/Project/ECR_Tracking/SiamFCPure/build",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe  @CMakeFiles/siamfc_onnx.dir/includes_CXX.rsp -std=c++17 -o CMakeFiles\\siamfc_onnx.dir\\src\\SiamFCONNXTracker.cpp.obj -c E:\\SourceCode\\C2P\\Project\\ECR_Tracking\\SiamFCPure\\src\\SiamFCONNXTracker.cpp",
+  "file": "E:/SourceCode/C2P/Project/ECR_Tracking/SiamFCPure/src/SiamFCONNXTracker.cpp",
+  "output": "CMakeFiles/siamfc_onnx.dir/src/SiamFCONNXTracker.cpp.obj"
+},
+{
+  "directory": "E:/SourceCode/C2P/Project/ECR_Tracking/SiamFCPure/build",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe  @CMakeFiles/siamfc_onnx.dir/includes_CXX.rsp -std=c++17 -o CMakeFiles\\siamfc_onnx.dir\\src\\OTBDataset.cpp.obj -c E:\\SourceCode\\C2P\\Project\\ECR_Tracking\\SiamFCPure\\src\\OTBDataset.cpp",
+  "file": "E:/SourceCode/C2P/Project/ECR_Tracking/SiamFCPure/src/OTBDataset.cpp",
+  "output": "CMakeFiles/siamfc_onnx.dir/src/OTBDataset.cpp.obj"
+},
+{
+  "directory": "E:/SourceCode/C2P/Project/ECR_Tracking/SiamFCPure/build",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe  @CMakeFiles/siamfc_otb_test.dir/includes_CXX.rsp -std=c++17 -o CMakeFiles\\siamfc_otb_test.dir\\src\\main.cpp.obj -c E:\\SourceCode\\C2P\\Project\\ECR_Tracking\\SiamFCPure\\src\\main.cpp",
+  "file": "E:/SourceCode/C2P/Project/ECR_Tracking/SiamFCPure/src/main.cpp",
+  "output": "CMakeFiles/siamfc_otb_test.dir/src/main.cpp.obj"
+}
+]
